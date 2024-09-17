@@ -1,0 +1,168 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #ffffff;
+  color: #030303;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Honk', cursive;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Recipe Styles */
+
+.recipe {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+.directions ol {
+  list-style: decimal;
+  padding: 0;
+  margin: 0;
+}
+
+.directions li {
+  margin-bottom: 10px;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+/* Combinator Selector */
+
+.recipe > h2 {
+  margin-top: 0;
+}
+
+/* ID Selector */
+
+#recipe-source {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Class Selector */
+
+.chocolate-chip-cookies {
+  font-family: 'Honk', cursive;
+  font-size: 36px;
+  color: #8b9467;
+}
+.recipe-image {
+  display: block;
+  margin: 0 auto;
+}
+.image-title {
+  text-align: center;
+}
+
+/* Add styles to the button */
+button {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Add a slight rounded corner effect */
+}
+
+button:hover {
+  background-color: #23527c;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect on hover */
+}
+
+/* Add styles to the form elements */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #23527c;
+  color: #fff;
+}
